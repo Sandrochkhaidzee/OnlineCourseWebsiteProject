@@ -21,6 +21,8 @@ document.getElementById('login-form').addEventListener('submit', function(event)
         console.log("Login successful!");
         alert("Welcome back!");
         document.getElementById('login-form').reset();
+        
+        window.location.href = 'ContactUs.html';
       } else {
         displayError("Incorrect email or password.");
       }

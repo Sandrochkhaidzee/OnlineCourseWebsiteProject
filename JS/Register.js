@@ -25,7 +25,8 @@ document.getElementById('register-form').addEventListener('submit', function(eve
     const formDataJson = generateJson(firstName, lastName, email, password);
 
     // submitToAPI(formDataJson);
-  
+    console.log("Success", formDataJson)
+    
     document.getElementById('register-form').reset();
   });
   

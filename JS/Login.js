@@ -20,9 +20,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
       if (student) {
         console.log("Login successful!");
         alert("Welcome back!");
-
-        window.location.href = 'https://sandrochkhaidzee.github.io/OnlineCourseWebsiteProject/ContactUs.html';
-
+        
         document.getElementById('login-form').reset();
       } else {
         displayError("Incorrect email or password.");

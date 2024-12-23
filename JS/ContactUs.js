@@ -23,7 +23,8 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     }
 
     const formDataJson = generateJson(name, email, website, message);
-
+    console.log(JSON.stringify(formDataJson));
+    
     // submitToAPI(formDataJson);
 
     document.getElementById('contact-form').reset();

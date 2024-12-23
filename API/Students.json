@@ -2,14 +2,6 @@
     {
       "Email": "student1@example.com",
       "Password": "password123"
-    },
-    {
-      "Email": "student2@example.com",
-      "Password": "securePass456"
-    },
-    {
-      "Email": "student3@example.com",
-      "Password": "mypassword789"
     }
   ]
   
